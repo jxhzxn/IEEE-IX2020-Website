@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>IX - 2020</title>
+</head>
+<body>
+        
+  
+    <div class="landing section">
+        <div class="bg-img-container">
+            <img class="bg-img" src="assets/background1.jpg">
+        </div>
+        <div class="ix-logo-container">
+            <img class="second-img" src="assets/logo.png">
+        </div>
+        <div class="first-text-container">
+            <p class="first-text">Sri Lanka's First Virtual Designathon</p>
+        </div>
+        <div class="countdown-container">
+            <div id="deadline" class="timer-container">
+                <div class="day">
+                    <p class="day-text">Days</p>
+                    <p class="day-count" id="day-count"></p>
+                </div>
+                <div class="hours">
+                    <p class="hours-text">Hours</p>
+                    <p class="hours-count" id="hours-count"></p>
+                </div>
+                <div class="minutes">
+                    <p class="minutes-text">Minutes</p>
+                    <p class="minutes-count" id="minutes-count"></p>
+                </div>
+            </div>
+        </div>
+        <div class="reg-btn-container">
+            <a href=""><button class="reg-btn">REGISTER NOW</button></a>
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script>
+        var countDownDate = new Date("Jun 18, 2020 00:00:00").getTime();
+
+        var x = setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("day-count").innerHTML =days;
+            document.getElementById("hours-count").innerHTML =hours;
+            document.getElementById("minutes-count").innerHTML =minutes;
+
+            if (distance < 0) {
+             clearInterval(x);
+            document.getElementById("demo").innerHTML = "Registraion is closed :/";
+            }
+        },1000);
+    </script>
+    
+</body>
+</html>

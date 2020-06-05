@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow: hidden; */
+}
+
+.landing-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img-container{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.ix-logo-container{
+    width: 100%;
+    margin-top: -150px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.second-img{
+    width: 450px;
+}
+
+.first-text-container{
+    margin-top: 460px ;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-text{
+    font-size: 40px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.countdown-container{
+    position: fixed;
+    z-index: 2;
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 530px;
+}
+
+.timer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.day{
+    border-style: dotted;
+    border-color: white;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.hours{
+    border-style: dotted;
+    border-color: white;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.minutes{
+    border-style: dotted;
+    border-color: white;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+
+}
+
+.reg-btn-container{
+    position: fixed;
+    z-index: 2;
+    border: dotted;
+    border-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 670px;
+}
+
+.reg-btn{
+    height: 60px;
+    font-size: 30px;
+    width: 250px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
