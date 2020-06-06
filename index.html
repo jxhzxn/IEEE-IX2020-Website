@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/anime.min.js"></script>
     <title>IX - 2020</title>
 </head>
 <body>
         
   
-    <div class="landing section">
+    <div class="landing section" id="landing-section">
         <div class="ix-logo-container">
             <img class="second-img" src="assets/logo.png">
         </div>
@@ -42,7 +43,7 @@
         
     </div>
 
-    <div class="about-section">
+    <div class="about-section" id="about-section">
         <div class="top-banner">
                 <div class="logo-box">
                     <img class="logo" src="assets/logo.png">
@@ -209,7 +210,19 @@
     </div>
     </div>
 
+<script>
+    var height = $("#landing-section").height();
 
+    $(window).scroll(function(){
+        if($(this).scrollTop() > height){
+            // console.log("okayyyyyyyyyyyyyyyy");
+            $('.top-banner').addClass('fixed');
+        }else{
+            $('.top-banner').removeClass('fixed');
+            // console.log("fuckkkkkkkkkkkkkkkkkkk");
+        }
+    })
+</script>
    
 <script>
      anime({ 
