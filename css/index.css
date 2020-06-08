@@ -72,9 +72,12 @@ button{
     /* border-style: solid;
     border-color: white; */
     color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 700; */
     letter-spacing: 5px;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
 }
 
 .countdown-container{
@@ -96,7 +99,10 @@ button{
 .day{
     /* border-style: dotted;
     border-color: white; */
-    margin: 20px 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,16 +144,23 @@ button{
 }
 
 .day-text{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 400; */
     font-size: 25px;
     letter-spacing: 2px;
+
+    font-family: 'Airbnb Cereal App Light';
+    font-style: normal;
+    font-weight: bold;
 }
 
 .day-count{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 800; */
     font-size: 45px;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
 }
 
 .minutes-text{
@@ -175,17 +188,21 @@ button{
 
 .reg-btn{
     color: white;
-    letter-spacing: -1px;
+    letter-spacing: 2px;
     height: 80px;
     font-size: 30px;
     width: 280px;
     border-radius: 100px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 700; */
     background-color: rgba(0, 0, 0, 0);
     border-style: solid;
     border-width: 5px;
     transition: all 0.3s;
+
+    font-family: 'Airbnb Cereal App Medium';
+    font-style: normal;
+    font-weight: bold;
 }
 
 .reg-btn:hover{
@@ -246,14 +263,17 @@ button{
     margin: 0px 40px 0px 20px;
     height: 50px;
     width: 140px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 300; */
     font-size: 25px;
     letter-spacing: 2px;
     color: #8E8888;
     background-color: rgba(255, 255, 255, 0);
     border: none;
     outline: none;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
 }
 
 .nav-btn-active{
@@ -277,8 +297,8 @@ button{
 }
 
 .svg-container{
-    /* border-style: solid;
-    border-color: blue; */
+    border-style: solid;
+    border-color: blue;
     /* padding-left: 100px; */
     width: 40%;
     display: flex;
@@ -291,36 +311,43 @@ button{
 }
 
 .about-text-container{
-    /* border-style: solid;
-    border-color: red; */
+    border-style: solid;
+    border-color: red;
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 .about-text-box{
     /* border-style: dotted;
     border-color: black; */
-    background-color: white;
+    /* background-color: white; */
     width: 650px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2);
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
 }
 
 .about-text-box:hover{
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.3);
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.3); */
 }
 
 .about-text{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    font-size: 25px; */
+    line-height: 175%;
+    letter-spacing: 1px;
+
+    font-family: 'Airbnb Cereal App Light';
+    font-style: normal;
+    font-weight: normal;
     font-size: 25px;
-    line-height: 150%;
     letter-spacing: 1px;
 }
 
@@ -346,9 +373,30 @@ button{
 }
 
 .head-text{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 55px; */
+
+    font-family: 'Airbnb Cereal App Black';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 160px;
+    letter-spacing: 5px;
+
+    color: rgba(142, 136, 136, 0.212);
+}
+
+.head-text-test{
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 55px; */
+
+    font-family: 'Airbnb Cereal App Black';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 160px;
+    letter-spacing: 5px;
+    transform: rotate(-90deg);
 }
 
 .heading-section{
@@ -462,14 +510,20 @@ button{
 
 
 .timeline-head-text{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 400; */
     font-size: 23px;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
 }
 
 .timeline-desc-text{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 300; */
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -560,14 +614,32 @@ button{
 }
 
 .list-svg{
-    height: 80px;
-    width: 10px;
+    height: 50px;
+    width: 15px;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+}
+
+.under-svg{
+    height: 50px;
+    width: 15px;
+    transform: rotate(90deg);
 }
 
 .rules-text{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 23px;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 300; */
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
     margin-left: 20px;
     line-height: 140%;
 
@@ -789,12 +861,15 @@ button{
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 300; */
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
     font-size: 20px;
     border-color: #eee;
     border-style: solid;
-    border-width: 1.5px;
+    border-width: 1px;
   }
   
   .active, .accordion:hover {
@@ -803,7 +878,7 @@ button{
   
   .accordion:after {
     content: '\002B';
-    color: #777;
+    color: rgba(149, 149, 149, 0.26);
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -820,7 +895,10 @@ button{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
     font-weight: 400;
     font-size: 18px;
 
@@ -828,10 +906,10 @@ button{
   }
 
   .accordion-box{
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.5);
-    border-color: #eee;
+    box-shadow: 0px 0px 5px rgba(0, 1, 0, 0.3);
+    /* border-color: #eee;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px; */
   }
 
   .faq-body-container{
@@ -893,8 +971,11 @@ button{
  }
 
  .footer-text{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 400; */
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
     color: white;
  }
@@ -903,14 +984,14 @@ button{
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 10px;
+     margin-top: 20px;
  }
 
  .icon{
      color: white;
-     font-size: 30px;
-     margin-left: 5px;
-     margin-right: 5px;
+     font-size: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
  }
 
 
@@ -957,8 +1038,11 @@ button{
         /* border-style: solid;
         border-color: white; */
         color: white;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 700;
+        /* font-family: 'Open Sans', sans-serif;
+        font-weight: 700; */
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: normal;
         letter-spacing: 5px;
     }
 
