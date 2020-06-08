@@ -21,7 +21,7 @@ body{
 .landing-section{
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 100vh;
     width: 100%;
     /* border-style: solid;
     border-color: white; */
@@ -116,6 +116,17 @@ body{
     width: 120px;
 }
 
+.seconds{
+    /* border-style: dotted;
+    border-color: white; */
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
 .day-text{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -173,11 +184,13 @@ body{
 }
 
 .about-section{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #f1f1f1;
+      border-style: solid;
+    border-color: black;
 }
 
 .top-banner{
@@ -249,22 +262,28 @@ body{
 
 .section-body-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .svg-container{
-    border-style: solid;
-    border-color: blue;
-    padding-left: 100px;
+    /* border-style: solid;
+    border-color: blue; */
+    /* padding-left: 100px; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-svg{
-    width: 400px;
+    width: 100%;
 }
 
 .about-text-container{
     /* border-style: solid;
-    border-color: black; */
-    width: 100%;
+    border-color: red; */
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,11 +299,11 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2);
 }
 
 .about-text-box:hover{
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.3);
 }
 
 .about-text{
@@ -296,12 +315,14 @@ body{
 }
 
 .timeline-section{
-    height: 150vh;
+    /* height: 1200px; */
     width: 100%;
     background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
     padding-top: 150px;
+    border-style: solid;
+    border-color: black;
 }
 
 .jahzan{
@@ -337,13 +358,12 @@ body{
     /* width: 45%;
     border-style: solid;
     border-color: black; */
-
-    height: 100vh;
+    height: 150px;
     width: 45%;
 }
 
 .timeline-container{
-    height: 100vh;
+    height: 750px;
 
     width: 10%;
     /* border-style: solid;
@@ -355,7 +375,7 @@ body{
 }
 
 .timeline-right{
-    height: 100vh;
+    height: 150px;
     width: 45%;
     /* border-style: solid;
     border-color: black; */
@@ -402,19 +422,19 @@ body{
 }
 
 .text1{
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid;
+    border-color: black; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    height: 20vh;
+    height: 150px;
 }
 
 .text-wrap{
     /* border-style: solid;
     border-color: black; */
-    width: 250px;
+    width: 50%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -450,7 +470,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 20vh;
+    height: 150px;
 }
 
 .heading-container{
@@ -461,10 +481,13 @@ body{
 
 .rules-section{
     width: 100%;
-    height: 150vh;
+    /* height: 900px; */
     background-color: #f1f1f1;
     display: flex;
     flex-direction: column;
+    padding-top: 150px;
+    border-style: solid;
+    border-color: black;
 }
 
 .rules-head-box{
@@ -478,15 +501,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-color: red;
+    border-style: solid;
    
+}
+
+.rules-svg-box{
+    /* border-color: blue;
+    border-style: solid; */
+    width: 100%;
 }
 
 .rules-svg-container{
     width: 40%;
-    border-color: black;
-    border-style: solid;
 }
 .rules-text-box{
+    /* border-color: green;
+    border-style: solid; */
     /* background-color: white; */
     border-radius: 30px;
     /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
@@ -497,9 +528,10 @@ body{
     padding: 20px 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
-
+    /* margin-left: 100px; */
     width: 60%;
+
+    border-color: red;
 }
 
 .one-line{
@@ -537,18 +569,19 @@ body{
 }
 
 .phone-block{
-    width: 600px;
-    margin-top: 50px;
-    border-color: black;
-    border-style: solid;
+    width: 100%;
+    /* margin-top: 50px; */
+    /* border-color: black;
+    border-style: solid; */
 }
 
 .contact-section{
-    height: 150vh;
+    /* height: 700px; */
     display: flex;
     flex-direction: column;
     background-color: #f1f1f1;
-
+    border-style: dotted;
+    border-color: black;
 }
 
 .contact-head-box{
@@ -567,17 +600,15 @@ body{
 
 .contact-svg-box{
     width: 150%;
-    height: 1000px;
 }
 
 .contact-svg{
-    width: 500px;
+    width: 100%;
     height: auto;
-    margin-left: 100px;
 }
 
 .contact-body-text-box{
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .contact-text{
     font-family: 'Open Sans', sans-serif;
@@ -615,7 +646,7 @@ body{
     width: 20%;
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: auto;
 }
 
 .email-icon{
@@ -634,10 +665,36 @@ body{
     align-items: center;
 }
 
+.about-head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+     /* border-style: dotted;
+    border-color: red; */
+}
+
+.about-head-box{
+    /* border-style: dotted;
+    border-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media(max-width:770px){
     .section-body-container{
         display: flex;
         flex-direction: column;
+        /* border-style: dotted;
+        border-color: red; */
+    }
+
+    .about-svg{
+        width: 50%;
+        /* border-style: dotted;
+        border-color: red; */
     }
 
     .top-banner{
@@ -671,33 +728,42 @@ body{
 
     .rules-svg-container{
         width: 100%;
-        border-color: black;
-        border-style: solid;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .svg-container{
-        border-style: solid;
-        border-color: blue;
-        padding-left: 100px;
+        /* border-style: solid;
+        border-color: blue; */
         display: flex;
         justify-content: center;
+        align-items: center;
+        width: 100%;
     }
+
 
     .about-text-box{
         /* border-style: dotted;
         border-color: black; */
-        margin-top: 50px;
+        /* margin-top: 50px; */
         background-color: white;
-        width: 650px;
+        width: 100%;
         height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 30px;
         box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    }
+
+    .about-text-container{
+        /* border-style: solid;
+        border-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .rules-text-box{
@@ -715,45 +781,167 @@ body{
     }
 
     .timeline-section{
-        height: 150vh;
+        /* height: 1000px; */
         width: 100%;
         background-color: #f1f1f1;
         display: flex;
         flex-direction: column;
-        padding-top: 150px;
+        /* padding-top: 150px; */
     }
 
     .text1{
-        border-style: solid;
-        border-color: black;
+        /* border-style: solid;
+        border-color: black; */
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
-        height: 10vh;
+        height: 130px;
     }
 
     .text2{
-        border-style: solid;
-        border-color: black;
+        /* border-style: solid;
+        border-color: black; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        height: 10vh;
+        height: 130px;
     }
 
     .timeline-container{
-        height: 50vh;
+        height: 650px;
     
         width: 10%;
-        border-style: solid;
-        border-color: black;
+        /* border-style: solid;
+        border-color: black; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .contact-section{
+        /* padding-top: 900px; */
+    }
+
+    .text-wrap{
+        /* border-style: solid;
+        border-color: black; */
+        width: 80%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    }
+
+    .about-text-container{
+        /* border-style: solid;
+        border-color: red; */
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-body-below{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-section{
+        /* height: 1000px; */
+        display: flex;
+        flex-direction: column;
+        background-color: #f1f1f1;
+        border-style: dotted;
+        border-color: black;
+    }
+
+    .rules-section{
+        width: 100%;
+        /* height: 1500px; */
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 200px; */
+          border-style: solid;
+        border-color: black;
+    }
+
+    .rules-svg-box{
+        /* border-color: yellow;
+        border-style: solid; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone-block{
+        width: 500px;
+        height: 500px;
+        /* margin-top: 50px; */
+        border-color: red;
+        border-style: solid;
+    }
+
+    .contact-body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-color: red;
+        border-style: solid;
+    }
+
+    .lolo{
+        width: auto;
+        border-style: dotted;
+        border-color: red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+    }
+
+
+    .contact-social-container{
+        width: 100%;
+        border-color: black;
+        border-style: solid;
+        display: flex;
+        padding-top: 0px;
+        justify-content: center;
+    }
+
+    .social-svg-box{
+        border-color: yellow;
+        border-style: solid;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .email-icon{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    
 
 
 }
