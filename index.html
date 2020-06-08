@@ -43,7 +43,7 @@
         </div>
         <div class="reg-btn-container">
             <div class="test">
-                <a href="https://forms.gle/cbcMWLkTeytknyb78"><button class="reg-btn">REGISTER NOW</button></a>
+                <a href="https://forms.gle/cbcMWLkTeytknyb78" target="_blank"><button class="reg-btn">REGISTER NOW</button></a>
             </div>
         </div>
         
@@ -52,7 +52,7 @@
     <div class="about-section" id="about-section">
         <div class="top-banner">
                 <div class="logo-box">
-                    <img class="logo" src="assets/logo.png">
+                    <a href="#about-section"><img class="logo" src="assets/logo.png"></a>
                 </div>
                 <div class="buttons">
                     <a href="#about-section"><button class="nav-btn about">ABOUT</button></a> 
@@ -71,7 +71,6 @@
 
         <div class="section-body-container">
             <div class="svg-container">
-                <div>
                     <svg class="about-svg" width="657" height="526" viewBox="0 0 657 526" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0)">
                         <path d="M105.799 526C145.529 526 177.737 522.987 177.737 519.27C177.737 515.553 145.529 512.54 105.799 512.54C66.0682 512.54 33.8604 515.553 33.8604 519.27C33.8604 522.987 66.0682 526 105.799 526Z" fill="#C8DBFB"/>
@@ -203,7 +202,7 @@
                         </clipPath>
                         </defs>
                         </svg> -->
-                </div>
+               
             </div>
             <div class="about-text-container">
                 <div class="about-text-box">
@@ -354,7 +353,7 @@
                 </div>
 
                 <div class="rules-more-btn-container">
-                    <button class="rules-btn">READ MORE</button>
+                    <a href="" target="_blank"><button class="rules-btn">READ MORE</button></a>
                 </div>
             </div>
 
@@ -380,13 +379,13 @@
 
                     <div class="contact-social-container">
                         <div class="social-svg-box">
-                            <img class=email-icon src="./assets/eemail.png">                         
+                            <a href="mailto:ix.designathon@gmail.com"><img class=email-icon src="./assets/eemail.png"></a>                         
                         </div>
                         <div class="social-svg-box">
-                            <img class=email-icon src="./assets/instagram.png">
+                            <a href="https://instagram.com/ieeeiit?igshid=1x4l51c58bzpj" target="_blank"><img class=email-icon src="./assets/instagram.png"></a>
                         </div>
                         <div class="social-svg-box">
-                            <img class=email-icon src="./assets/facebook.png">
+                            <a href="https://www.facebook.com/ieeeinformatics/" target="_blank"><img class=email-icon src="./assets/facebook.png"></a>
                         </div>
                     </div>
 
@@ -490,9 +489,9 @@
     <div class="footer">
         <div class="footer-element">
             <div class="footer-icons">
-                <a href="mailto:ix.designathon@gmail.com"><i class="far fa-envelope icon"></i></a>
-                <a href="https://www.facebook.com/ieeeinformatics/"><i class="fab fa-facebook-f icon"></i></a>
-                <a href="https://instagram.com/ieeeiit?igshid=1x4l51c58bzpj"><i class="fab fa-instagram icon"></i></a>
+                <a href="mailto:ix.designathon@gmail.com" target="_blank"><i class="far fa-envelope icon"></i></a>
+                <a href="https://www.facebook.com/ieeeinformatics/" target="_blank"><i class="fab fa-facebook-f icon"></i></a>
+                <a href="https://instagram.com/ieeeiit?igshid=1x4l51c58bzpj" target="_blank"><i class="fab fa-instagram icon"></i></a>
             </div>
             <div class="footer-copyright">
                 <p class="footer-text">&copy; IX 2020 | All rights reserved</p>
@@ -565,7 +564,7 @@ for (i = 0; i < acc.length; i++) {
     var height = $("#landing-section").height();
 
     $(window).scroll(function(){
-        if($(this).scrollTop() > height){
+        if($(this).scrollTop() > height+119.5){
             $('.top-banner').addClass('fixed');
         }else{
             $('.top-banner').removeClass('fixed');
