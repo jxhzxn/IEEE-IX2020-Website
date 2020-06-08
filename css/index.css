@@ -1034,7 +1034,7 @@ button{
     /* background-color: red; */
     color: white;
     text-align: center;
-    box-shadow: 0px 0px 50px rgba(0, 1, 0, 3);
+    box-shadow: 0px 0px 35px rgba(0, 1, 0, 3);
  }
 
  .footer-element{
