@@ -9,6 +9,7 @@
     <script src="./js/anime.min.js"></script>
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/airbnb/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <title>IX20</title>
     <link rel="icon" href="./assets/icon.png" ">
 </head>
@@ -16,7 +17,7 @@
         
   
     <div class="landing section" id="landing-section">
-        <div class="ix-logo-container">
+        <div class="ix-logo-container animate__animated animate__fadeIn">
             <img class="second-img" src="assets/logo.png">
         </div>
         <div class="first-text-container">
@@ -447,7 +448,7 @@
 
             <div class="faq-svg-container">
                 <div class="faq-svg-box">
-                    <svg class="bird-svg" width="546" height="511" viewBox="0 0 546 511" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href="#about-section"><svg class="bird-svg" width="546" height="511" viewBox="0 0 546 511" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="undraw_happy_music_g6wc 1" clip-path="url(#clip0)">
                         <g id="bird">
                         <path id="Vector" d="M345.251 435.257C405.707 435.257 454.716 386.247 454.716 325.791C454.716 265.335 405.707 216.326 345.251 216.326C284.795 216.326 235.785 265.335 235.785 325.791C235.785 386.247 284.795 435.257 345.251 435.257Z" fill="#3F3D56"/>
@@ -476,7 +477,7 @@
                         </clipPath>
                         </defs>
                         </svg>
-                        
+                    </a>
                         
                 </div>
             </div>
@@ -534,26 +535,67 @@ for (i = 0; i < acc.length; i++) {
 	    $(".contact").css("color" , "#8E8888");
         $(".faq").css("color" , "#8E8888");
         console.log("fuckkkk");
+
+        // $('.contact').removeClass('animate__animated animate__headShake'); 
+        // $('.timeline').removeClass('animate__animated animate__headShake'); 
+        // $('.contact').removeClass('animate__animated animate__headShake'); 
+        // $('.about').removeClass('animate__animated animate__headShake'); 
+
 	  }else if (scroll > contact+450){
 		$(".about").css("color" , "#8E8888");
 	    $(".timeline").css("color" , "#8E8888");
 	    $(".rules").css("color" , "#8E8888");	
 	    $(".contact").css("color" , "#0095df"); 
+        $('.email-icon').addClass('animate__animated animate__bounceIn'); 
+
+        // $('.contact').addClass('animate__animated animate__headShake'); 
+        // $('.timeline').removeClass('animate__animated animate__headShake'); 
+        // $('.contact').removeClass('animate__animated animate__headShake'); 
+        // $('.about').removeClass('animate__animated animate__headShake'); 
+
+
 	  }else if (scroll > rules+450){
 		$(".about").css("color" , "#8E8888");
 	    $(".timeline").css("color" , "#8E8888");
 	    $(".rules").css("color" , "#0095df");
-	    $(".contact").css("color" , "#8E8888"); 	
+	    $(".contact").css("color" , "#8E8888"); 
+
+        // $('.rules').addClass('animate__animated animate__headShake'); 
+        // $('.contact').removeClass('animate__animated animate__headShake'); 
+        // $('.timeline').removeClass('animate__animated animate__headShake'); 
+        // $('.about').removeClass('animate__animated animate__headShake'); 
+
+        // $('.one-line').addClass('animate__animated animate__zoomInDown'); 
 	  }else if (scroll > about){
 		$(".about").css("color" , "#8E8888");
 	    $(".timeline").css("color" , "#0095df");
 	    $(".rules").css("color" , "#8E8888");
-	    $(".contact").css("color" , "#8E8888"); 	
+	    $(".contact").css("color" , "#8E8888");
+
+        $('.text-wrap').addClass('animate__animated animate__zoomInDown'); 
+        $('.timeline-container').addClass('animate__animated animate__slideInUp'); 
+
+        // $('.timeline').addClass('animate__animated animate__headShake'); 
+        // $('.about').removeClass('animate__animated animate__headShake'); 
+        // $('.rules').removeClass('animate__animated animate__headShake'); 
+        // $('.contact').removeClass('animate__animated animate__headShake'); 
+
+
 	  }else if (scroll > landing){
 		$(".about").css("color" , "#0095df");
 	    $(".timeline").css("color" , "#8E8888");
 	    $(".rules").css("color" , "#8E8888");
-	    $(".contact").css("color" , "#8E8888"); 	
+	    $(".contact").css("color" , "#8E8888");
+        
+        $('.about-text-box').addClass('animate__animated animate__fadeInRight'); 
+
+
+        // $('.about').addClass('animate__animated animate__headShake'); 
+        // $('.timeline').removeClass('animate__animated animate__headShake'); 
+        // $('.rules').removeClass('animate__animated animate__headShake'); 
+        // $('.contact').removeClass('animate__animated animate__headShake'); 
+
+
 	  }
   });
 </script>
