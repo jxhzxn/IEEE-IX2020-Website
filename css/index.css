@@ -187,6 +187,7 @@ button{
     display: flex;
     justify-content: center;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 
 .reg-btn{
@@ -291,6 +292,7 @@ button{
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
     font-weight: normal;
+    cursor: pointer;
 }
 
 .nav-btn:hover{
@@ -404,6 +406,7 @@ button{
     font-weight: normal;
     font-size: 160px;
     letter-spacing: 5px;
+    cursor: default;
 
     color: rgba(142, 136, 136, 0.212);
 }
@@ -509,6 +512,8 @@ button{
     align-items: flex-end;
     justify-content: center;
     height: 150px;
+    cursor: default;
+
 }
 
 .text-wrap{
@@ -523,6 +528,8 @@ button{
     background-color: white;
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    cursor: default;
+
 }
 
 .text-wrap:hover{
@@ -616,6 +623,7 @@ button{
     align-items: center;
     /* margin-left: 100px; */
     width: 60%;
+    cursor: default;
 
     border-color: red;
 }
@@ -654,6 +662,7 @@ button{
     background-origin: border-box;
     background-clip: content-box, border-box;
     transition: all 0.3s;
+    cursor: pointer;
 
 }
 
@@ -781,6 +790,8 @@ button{
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
     font-weight: normal;
+    cursor: default;
+
 }
 
 .contact-body-below{
