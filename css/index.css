@@ -607,6 +607,10 @@ button{
     visibility: visible;
 }
 
+.test{
+    cursor: pointer;
+}
+
 
 
 
@@ -1711,6 +1715,7 @@ button{
     }
 
     .reg-btn{
+        cursor: pointer;
         color: white;
         letter-spacing: 2px;
         height: 70px;
