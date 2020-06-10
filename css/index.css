@@ -909,6 +909,8 @@ button{
     align-items: center;
     height: auto;
     margin: 0px 100px 0px 100px;
+    transition: all 0.3s;
+
 
 }
 
@@ -921,8 +923,8 @@ button{
 
 }
 
-.email-icon:hover{
-    transform: scale(1.05);
+.social-svg-box:hover{
+    transform: scale(1.08);
     transition: all 0.3s;
 }
 
