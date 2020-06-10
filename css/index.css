@@ -1186,13 +1186,7 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
-    .inititial-round-tooltip{
-        display: none;
-    }
-
-    .final-round-tooltip{
-        display: none;
-    }
+  
 
     .section-body-container{
         display: flex;
@@ -1475,6 +1469,15 @@ button{
 
 /* MOBILE DEVICES */
 @media(max-width:450px){
+
+    .initial-round-tooltip{
+        display: none;
+    }
+
+    .final-round-tooltip{
+        display: none;
+    }
+
     .head-text{
         font-family: 'Airbnb Cereal App Black';
         font-style: normal;
