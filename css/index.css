@@ -536,7 +536,36 @@ button{
     width: 80%;
 }
 
-.tooltip-text {
+.final-round-tooltip {
+    visibility: hidden;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 280px;
+    height: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+    /* border-radius: 30px; */
+    text-align: center;
+    opacity: 20%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    /* transition: 0.3s all; */
+
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+.initial-round-tooltip {
     visibility: hidden;
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
@@ -570,7 +599,11 @@ button{
     cursor: pointer;
 }
 
-.text-wrap:hover .tooltip-text{
+.text-wrap:hover .initial-round-tooltip{
+    visibility: visible;
+}
+
+.text-wrap:hover .final-round-tooltip{
     visibility: visible;
 }
 
@@ -1153,7 +1186,11 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
-    .tooltip-text{
+    .inititial-round-tooltip{
+        display: none;
+    }
+
+    .final-round-tooltip{
         display: none;
     }
 
