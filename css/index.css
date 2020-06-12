@@ -83,7 +83,7 @@ button{
 
 .second-img{
     width: 350px;
-    max-height: 350px;
+    max-height: 525px;
     /* border-style: solid;
     border-color: black; */
 }
@@ -1866,7 +1866,7 @@ button{
 
     .second-img{
         width: 250px;
-        max-height: 250px;
+        max-height: 425px;
         /* border-style: solid;
         border-color: red; */
     }
@@ -1925,7 +1925,7 @@ button{
 
     .second-img{
         width: 250px;
-        max-height: 250px;
+        max-height: 425px;
         /* border-style: solid;
         border-color: red; */
     }
@@ -1971,7 +1971,7 @@ button{
 
     .second-img{
         width: 250px;
-        max-height: 250px;
+        max-height: 425px;
         /* border-style: solid;
         border-color: red; */
     }
