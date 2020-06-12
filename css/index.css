@@ -83,6 +83,7 @@ button{
 
 .second-img{
     width: 350px;
+    min-height: 350px;
     /* border-style: solid;
     border-color: black; */
 }
@@ -1863,6 +1864,13 @@ button{
         background-clip: content-box, border-box; */
     }
 
+    .second-img{
+        width: 250px;
+        max-height: 250px;
+        /* border-style: solid;
+        border-color: red; */
+    }
+
  
 }
 
@@ -1914,6 +1922,13 @@ button{
         background-color: #f1f1f1;
         margin-top: -100px;
     }
+
+    .second-img{
+        width: 250px;
+        max-height: 250px;
+        /* border-style: solid;
+        border-color: red; */
+    }
 }
 
 @media(max-width:325px){
@@ -1955,9 +1970,10 @@ button{
     }
 
     .second-img{
-        width: 300px;
+        width: 250px;
+        max-height: 250px;
         /* border-style: solid;
-        border-color: black; */
+        border-color: red; */
     }
 
     .rules-body-container{
