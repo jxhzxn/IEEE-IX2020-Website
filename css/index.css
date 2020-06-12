@@ -28,6 +28,31 @@ button{
     outline: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    /* height: 100px; */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #0095df, #7000ec ); 
+    transition: all 0.5s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: linear-gradient(to bottom,#7000ec, #0095df ); */
+    background:#0095df;
+    transition: all 0.5s;
+
+  }
+
 
 
 .landing-section{
@@ -58,6 +83,7 @@ button{
 
 .second-img{
     width: 350px;
+    max-height: 525px;
     /* border-style: solid;
     border-color: black; */
 }
@@ -83,7 +109,35 @@ button{
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
     font-weight: bold;
+
+    /* border-right: .10em solid #ff0081;
+    white-space: nowrap;
+    margin: 0 auto;
+    overflow: hidden; */
+
+    /* animation: 
+        typing 14.5s steps(30, end),
+        blink-caret .75s step-end infinite;
+
+    animation-iteration-count: infinite; */
+
+
 }
+
+
+/* @keyframes typing {
+    0% { width: 0 }
+    25% { width: 50% }
+    50% { width: 50% }
+    100% { width: 0 }
+  }
+  
+
+  @keyframes blink-caret {
+    from,to { border-color: transparent }
+    50% { border-color: #ff0081; }
+  } */
+
 
 .countdown-container{
     font-size: 40px;
@@ -1052,7 +1106,9 @@ button{
   
   .accordion:after {
     content: '\002B';
-    color: rgba(149, 149, 149, 0.26);
+    /* color: rgba(149, 149, 149, 0.26); */
+    color: #444;
+
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -1127,11 +1183,13 @@ button{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 200px;
+    height: 180px;
     /* background-color: red; */
     color: white;
     text-align: center;
-    box-shadow: 0px 0px 35px rgba(0, 1, 0, 3);
+    /* box-shadow: 0px 0px 35px rgba(0, 1, 0, 3); */
+    display: flex;
+    /* justify-content: space-between; */
  }
 
  .footer-element{
@@ -1142,7 +1200,45 @@ button{
      justify-content: center;
      align-items: center;
      height: 100%;
+     width: 70%;
  }
+
+ .footer-icons{
+      /* border-style: solid;
+    border-color: white; */
+ }
+
+ .footer-left{
+     width: 15%;
+    /* border-style: solid;
+    border-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer-right{
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border-style: solid;
+    border-color: white; */
+    padding-right: 85px;
+   
+}
+
+.footer-logo{
+    width: 70px;
+    /* border-style: solid;
+    border-color: white; */
+    margin-top: -10px;
+}
+
+.ieee-logo{
+    width: 150px;
+    padding-left: 30px;
+}
 
  .footer-text{
     /* font-family: 'Open Sans', sans-serif;
@@ -1153,13 +1249,16 @@ button{
     font-size: 15px;
     color: white;
     cursor: pointer;
+    padding-top: 20px;
  }
 
  .footer-copyright{
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 20px;
+     flex-direction: column;
+      /* border-style: solid;
+    border-color: white; */
  }
 
  .icon{
@@ -1194,6 +1293,10 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
+
+    .footer-right{
+        display: none;
+    }
   
 
     .section-body-container{
@@ -1470,6 +1573,19 @@ button{
         width: 100%;
         height: 100%;
         margin-top: 20px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ieee-logo{
+        padding-top: 30px;
+        padding-left: 0px;
+        width: 120px;
     }
     
     
@@ -1748,6 +1864,13 @@ button{
         background-clip: content-box, border-box; */
     }
 
+    .second-img{
+        width: 250px;
+        max-height: 425px;
+        /* border-style: solid;
+        border-color: red; */
+    }
+
  
 }
 
@@ -1799,6 +1922,13 @@ button{
         background-color: #f1f1f1;
         margin-top: -100px;
     }
+
+    .second-img{
+        width: 250px;
+        max-height: 425px;
+        /* border-style: solid;
+        border-color: red; */
+    }
 }
 
 @media(max-width:325px){
@@ -1840,9 +1970,10 @@ button{
     }
 
     .second-img{
-        width: 300px;
+        width: 250px;
+        max-height: 425px;
         /* border-style: solid;
-        border-color: black; */
+        border-color: red; */
     }
 
     .rules-body-container{
