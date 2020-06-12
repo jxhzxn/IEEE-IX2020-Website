@@ -83,7 +83,7 @@ button{
 
 .second-img{
     width: 350px;
-    min-height: 350px;
+    max-height: 350px;
     /* border-style: solid;
     border-color: black; */
 }
