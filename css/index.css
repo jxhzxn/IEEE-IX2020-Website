@@ -47,7 +47,8 @@ button{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom,#7000ec, #0095df );
+    /* background: linear-gradient(to bottom,#7000ec, #0095df ); */
+    background:#0095df;
     transition: all 0.5s;
 
   }
@@ -1181,7 +1182,7 @@ button{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 150px;
+    height: 180px;
     /* background-color: red; */
     color: white;
     text-align: center;
@@ -1234,7 +1235,8 @@ button{
 }
 
 .ieee-logo{
-    width: 120px;
+    width: 150px;
+    padding-left: 30px;
 }
 
  .footer-text{
@@ -1246,7 +1248,7 @@ button{
     font-size: 15px;
     color: white;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 20px;
  }
 
  .footer-copyright{
@@ -1290,6 +1292,10 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
+
+    .footer-right{
+        display: none;
+    }
   
 
     .section-body-container{
@@ -1566,6 +1572,19 @@ button{
         width: 100%;
         height: 100%;
         margin-top: 20px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ieee-logo{
+        padding-top: 30px;
+        padding-left: 0px;
+        width: 120px;
     }
     
     
