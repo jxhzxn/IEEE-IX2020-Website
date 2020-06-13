@@ -29,6 +29,8 @@ button{
 }
 
 
+
+
 /* ::-webkit-scrollbar {
     width: 10px;
   }
@@ -299,7 +301,7 @@ button{
     /* border-style: solid;
     border-color: black; */
     background-color: white;
-    height: 120px;
+    height: 100px;
     box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.5);
 }
 
@@ -343,7 +345,7 @@ button{
     width: 140px;
     /* font-family: 'Open Sans', sans-serif;
     font-weight: 300; */
-    font-size: 23px;
+    font-size: 21px;
     letter-spacing: 2px;
     color: #8E8888;
     background-color: rgba(255, 255, 255, 0);
@@ -1348,9 +1350,6 @@ button{
 /* TABLET DEVICES */
 @media(max-width:770px){
 
-    /* .footer-left{
-        padding-top: 20px;
-    } */
 
 
     .footer-icons{
