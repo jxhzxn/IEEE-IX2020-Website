@@ -432,7 +432,7 @@ button{
     font-family: 'Airbnb Cereal App Light';
     font-style: normal;
     font-weight: normal;
-    font-size: 23px;
+    font-size: 21px;
     letter-spacing: 1px;
 }
 
@@ -1348,13 +1348,13 @@ button{
 /* TABLET DEVICES */
 @media(max-width:770px){
 
-    .footer-left{
+    /* .footer-left{
         padding-top: 20px;
-    }
+    } */
 
 
     .footer-icons{
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .faq-svg{
@@ -1695,6 +1695,10 @@ button{
     }
 
     .final-round-tooltip{
+        display: none;
+    }
+
+    .workshop-tooltip{
         display: none;
     }
 
