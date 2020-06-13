@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background: url("../assets/background1.jpg") no-repeat center; 
+    background: url("../assets/Background.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,30 +28,27 @@ button{
     outline: none;
 }
 
-/* width */
-::-webkit-scrollbar {
+
+/* ::-webkit-scrollbar {
     width: 10px;
-    /* height: 100px; */
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: white;
   }
    
-  /* Handle */
+
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(to bottom, #0095df, #7000ec ); 
     transition: all 0.5s;
   }
   
-  /* Handle on hover */
+ 
   ::-webkit-scrollbar-thumb:hover {
-    /* background: linear-gradient(to bottom,#7000ec, #0095df ); */
     background:#0095df;
     transition: all 0.5s;
 
-  }
+  } */
 
 
 
@@ -289,7 +286,8 @@ button{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: white;
       /* border-style: solid;
     border-color: black; */
 }
@@ -316,12 +314,18 @@ button{
 .logo-box{
     /* border-style: dotted;
     border-color: black; */
-    padding-left: 100px;
-    margin-top: -25px;
+    padding-left: 50px;
+    /* margin-top: -25px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
-    width: 100px;
+    width: 80px;
+    /* border-style: dotted;
+    border-color: black; */
+    margin-top: -10px;
 }
 
 .buttons{
@@ -339,7 +343,7 @@ button{
     width: 140px;
     /* font-family: 'Open Sans', sans-serif;
     font-weight: 300; */
-    font-size: 25px;
+    font-size: 23px;
     letter-spacing: 2px;
     color: #8E8888;
     background-color: rgba(255, 255, 255, 0);
@@ -349,10 +353,11 @@ button{
     font-style: normal;
     font-weight: normal;
     cursor: pointer;
+    transition: all(5s);
 }
 
 .nav-btn:hover{
-    color: #0095df;
+    color: #3E45EE;
 
 }
 
@@ -360,14 +365,15 @@ button{
     margin: 0px 40px 0px 20px;
     height: 50px;
     width: 140px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
     letter-spacing: 2px;
-    color: #0095df;
+    color: #3E45EE;
     background-color: rgba(255, 255, 255, 0);
     border: none;
     outline: none;
+    transition: all(5s);
 }
 
 .section-body-container{
@@ -423,7 +429,7 @@ button{
     line-height: 175%;
     letter-spacing: 1px;
 
-    font-family: 'Airbnb Cereal App Book';
+    font-family: 'Airbnb Cereal App Light';
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
@@ -433,7 +439,9 @@ button{
 .timeline-section{
     /* height: 1200px; */
     width: 100%;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: white;
+
     display: flex;
     flex-direction: column;
     padding-top: 150px;
@@ -573,17 +581,17 @@ button{
 }
 
 .text-wrap{
-    /* border-style: solid;
-    border-color: black; */
     width: 50%;
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #FFFFFF;
+    /* background-color: #f1f1f1; */
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
     cursor: default;
 
 }
@@ -650,6 +658,35 @@ button{
     z-index: 1;
   }
 
+  .workshop-tooltip {
+    visibility: hidden;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 280px;
+    height: 170px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+    /* border-radius: 30px; */
+    text-align: center;
+    opacity: 20%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    /* transition: 0.3s all; */
+
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
 .text-wrap:hover{
     box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2);
     cursor: pointer;
@@ -662,6 +699,12 @@ button{
 .text-wrap:hover .final-round-tooltip{
     visibility: visible;
 }
+
+.text-wrap:hover .workshop-tooltip{
+    visibility: visible;
+}
+
+
 
 .test{
     cursor: pointer;
@@ -711,7 +754,9 @@ button{
 .rules-section{
     width: 100%;
     /* height: 900px; */
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: white;
+
     display: flex;
     flex-direction: column;
     padding-top: 150px;
@@ -758,7 +803,7 @@ button{
     justify-content: center;
     align-items: center;
     /* margin-left: 100px; */
-    width: 60%;
+    width: 70%;
     cursor: default;
 
     border-color: red;
@@ -794,7 +839,7 @@ button{
 
     border: double 4px transparent;
     border-radius: 100px;
-    background-image: linear-gradient(#f1f1f1, #f1f1f1), radial-gradient(circle at top left, #0095df,#7000ec);
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #0095df,#7000ec);
     background-origin: border-box;
     background-clip: content-box, border-box;
     transition: all 0.3s;
@@ -873,7 +918,9 @@ button{
     /* height: 700px; */
     display: flex;
     flex-direction: column;
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: white;
+
     /* border-style: dotted;
     border-color: black; */
     padding-top: 100px;
@@ -1019,7 +1066,9 @@ button{
 .faq-section{
     /* border-color: red;
     border-style: solid; */
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-color: white;
+
 }
 
 .faq-head-box{
@@ -1038,6 +1087,10 @@ button{
     height: 100%;
     margin-top: 10px;
 }
+
+    .faq-svg{
+        width: 350px;
+    }
 
 
 /* .accordion {
@@ -1144,10 +1197,9 @@ button{
 
   .faq-body-container{
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
-      padding-top: 50px;
+      /* padding-top: 50px; */
       /* border-color: black;
       border-style: solid; */
   }
@@ -1155,6 +1207,10 @@ button{
   .faq-svg-container{
       /* border-color: red;
       border-style: solid; */
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       /* bottom: 0; */
   }
 
@@ -1162,21 +1218,18 @@ button{
       width: 650px;
       padding-right: 20px;
       padding-left: 20px;
+      /* border-color: red;
+      border-style: solid; */
   }
 
-  .faq-svg-container{
+  /* .faq-svg-container{
       width: 100%;
       height: 200px;
       display: flex;
       justify-content: flex-end;
-  }
+  } */
 
-  .faq-svg-box{
-      /* border-color: green;
-      border-style: solid; */
-      height: 100%;
-      width: 300px;
-  }
+
 
   .footer {
     position: static;
@@ -1206,6 +1259,7 @@ button{
  .footer-icons{
       /* border-style: solid;
     border-color: white; */
+    padding-top: 20px;
  }
 
  .footer-left{
@@ -1249,7 +1303,7 @@ button{
     font-size: 15px;
     color: white;
     cursor: pointer;
-    padding-top: 20px;
+    /* padding-top: 20px; */
  }
 
  .footer-copyright{
@@ -1293,6 +1347,19 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
+
+    .footer-left{
+        padding-top: 20px;
+    }
+
+
+    .footer-icons{
+        padding-bottom: 40px;
+    }
+
+    .faq-svg{
+        width: 250px;
+    }
 
     .footer-right{
         display: none;
@@ -1411,7 +1478,9 @@ button{
     .timeline-section{
         /* height: 1000px; */
         width: 100%;
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
+        background-color: white;
+
         display: flex;
         flex-direction: column;
         /* padding-top: 150px; */
@@ -1462,9 +1531,14 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        /* background-color: white;
         border-radius: 30px;
-        box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+        box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
+
+        background-color: #FFFFFF;
+        /* background-color: #f1f1f1; */
+        border-radius: 30px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
     }
 
     .text-wrap:hover .head-text{
@@ -1490,7 +1564,9 @@ button{
         /* height: 1000px; */
         display: flex;
         flex-direction: column;
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
+        background-color: white;
+
         /* border-style: dotted;
         border-color: black; */
     }
@@ -1498,7 +1574,9 @@ button{
     .rules-section{
         width: 100%;
         /* height: 1500px; */
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
+        background-color: white;
+
         display: flex;
         flex-direction: column;
         /* padding-top: 200px; */
@@ -1594,6 +1672,24 @@ button{
 /* MOBILE DEVICES */
 @media(max-width:450px){
 
+    .about-text{
+        font-size: 18px;
+    }
+
+    .faq-svg-container{
+        display: none;
+    }
+
+    .faq-body-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        /* border-color: black;
+        border-style: solid; */
+    }
+
     .initial-round-tooltip{
         display: none;
     }
@@ -1634,6 +1730,8 @@ button{
         width: 375px;
         padding-right: 20px;
         padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 100px;
     }
 
     .day-text{
@@ -1727,7 +1825,7 @@ button{
     
         border: double 4px transparent;
         border-radius: 100px;
-        background-image: linear-gradient(#f1f1f1, #f1f1f1), radial-gradient(circle at top left, #0095df,#7000ec);
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #0095df,#7000ec);
         background-origin: border-box;
         background-clip: content-box, border-box;
     }
@@ -1919,7 +2017,8 @@ button{
     .faq-section{
         /* border-color: red;
         border-style: solid; */
-        background-color: #f1f1f1;
+        /* background-color: #f1f1f1; */
+        background-color: white;
         margin-top: -100px;
     }
 
@@ -1949,17 +2048,7 @@ button{
     }
 
     .about-text{
-        /* font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-        font-size: 25px; */
-        line-height: 175%;
-        letter-spacing: 1px;
-    
-        font-family: 'Airbnb Cereal App Book';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        letter-spacing: 1px;
+        font-size: 18px;
     }
 
     .contact-text{
