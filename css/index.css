@@ -301,7 +301,7 @@ button{
     /* border-style: solid;
     border-color: black; */
     background-color: white;
-    height: 100px;
+    height: 80px;
     box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.5);
 }
 
@@ -324,7 +324,7 @@ button{
 }
 
 .logo{
-    width: 80px;
+    width: 60px;
     /* border-style: dotted;
     border-color: black; */
     margin-top: -10px;
@@ -345,7 +345,7 @@ button{
     width: 140px;
     /* font-family: 'Open Sans', sans-serif;
     font-weight: 300; */
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 2px;
     color: #8E8888;
     background-color: rgba(255, 255, 255, 0);
@@ -394,7 +394,7 @@ button{
 }
 
 .about-svg{
-    width: 600px;
+    width: 800px;
 }
 
 .about-text-container{
@@ -595,7 +595,23 @@ button{
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
     /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
     cursor: default;
+    transition: 0.3s all;
+}
 
+.text-wrap-reg{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* background-color: #f1f1f1; */
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
+    cursor: default;
+    transition: 0.3s all;
 }
 
 .text-of-tooltip{
@@ -606,24 +622,23 @@ button{
     visibility: hidden;
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 280px;
-    height: 170px;
-    background-color: black;
-    color: #fff;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: black;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     text-align: center;
-    opacity: 20%;
-    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
     /* transition: 0.3s all; */
+    /* border-color: black;
+    border-style: dotted; */
 
   
     /* Position the tooltip */
@@ -635,24 +650,23 @@ button{
     visibility: hidden;
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 280px;
-    height: 170px;
-    background-color: black;
-    color: #fff;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: black;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     text-align: center;
-    opacity: 20%;
-    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
     /* transition: 0.3s all; */
+    /* border-color: black;
+    border-style: dotted; */
 
   
     /* Position the tooltip */
@@ -664,24 +678,22 @@ button{
     visibility: hidden;
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 280px;
-    height: 170px;
-    background-color: black;
-    color: #fff;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: black;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
-    /* border-radius: 30px; */
+    border-radius: 30px;
     text-align: center;
-    opacity: 20%;
-    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1);
-    /* transition: 0.3s all; */
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+    /* border-color: black;
+    border-style: dotted; */
 
   
     /* Position the tooltip */
@@ -690,16 +702,41 @@ button{
   }
 
 .text-wrap:hover{
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2);
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
     cursor: pointer;
+    /* width: 330px;
+    height: 170px; */
+    transform: scale(1.1);
+
 }
+
+.text-wrap-reg:hover{
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
+    cursor: pointer;
+    /* width: 330px;
+    height: 170px; */
+    transform: scale(1.1);
+
+}
+
+.text-wrap:hover .timeline-head-text{
+   visibility: hidden;
+
+}
+
+.text-wrap:hover .timeline-desc-text{
+    visibility: hidden;
+
+ }
 
 .text-wrap:hover .initial-round-tooltip{
     visibility: visible;
+
 }
 
 .text-wrap:hover .final-round-tooltip{
     visibility: visible;
+
 }
 
 .text-wrap:hover .workshop-tooltip{
@@ -1238,7 +1275,7 @@ button{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 180px;
+    height: 110px;
     /* background-color: red; */
     color: white;
     text-align: center;
@@ -1540,6 +1577,22 @@ button{
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
     }
 
+    .text-wrap-reg{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        /* background-color: #f1f1f1; */
+        border-radius: 30px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+        /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
+        cursor: default;
+        transition: 0.3s all;
+    }
+
     .text-wrap:hover .head-text{
         visibility: hidden;
     }
@@ -1670,6 +1723,21 @@ button{
 
 /* MOBILE DEVICES */
 @media(max-width:450px){
+    .footer {
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 180px;
+        /* background-color: red; */
+        color: white;
+        text-align: center;
+        /* box-shadow: 0px 0px 35px rgba(0, 1, 0, 3); */
+        display: flex;
+        /* justify-content: space-between; */
+     }
+    
+ 
 
     .about-text{
         font-size: 18px;
@@ -1970,6 +2038,43 @@ button{
         max-height: 425px;
         /* border-style: solid;
         border-color: red; */
+    }
+
+    .text-wrap:hover{
+        cursor: pointer;
+        transform: scale(1);
+    
+    }
+    
+    .text-wrap-reg:hover{
+        cursor: pointer;
+        transform: scale(1);
+
+    
+    }
+    
+    .text-wrap:hover .timeline-head-text{
+        visibility: visible;
+    }
+    
+    .text-wrap:hover .timeline-desc-text{
+        visibility: visible;
+    
+     }
+    
+    .text-wrap:hover .initial-round-tooltip{
+        visibility: visible;
+    
+    }
+    
+    .text-wrap:hover .final-round-tooltip{
+        visibility: visible;
+    
+    }
+    
+    .text-wrap:hover .workshop-tooltip{
+        visibility: visible;
+
     }
 
  
