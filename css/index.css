@@ -296,7 +296,7 @@ button{
     display: flex;
     flex-direction: column;
     /* background-color: #f1f1f1; */
-    background-color: white;
+    /* background-color: white; */
       /* border-style: solid;
     border-color: black; */
 }
@@ -307,7 +307,7 @@ button{
     top: 0;
     /* border-style: solid;
     border-color: black; */
-    background-color: white;
+    /* background-color: white; */
     height: 80px;
     /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.5); */
 }
@@ -411,13 +411,14 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -200px;
 }
 
 .svg-container{
     /* border-style: solid;
     border-color: blue; */
     /* padding-left: 100px; */
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: start;
 }
@@ -429,10 +430,11 @@ button{
 .about-text-container{
     /* border-style: solid;
     border-color: red; */
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -200px;
 }
 
 
@@ -459,11 +461,12 @@ button{
     font-size: 25px; */
     line-height: 175%;
     letter-spacing: 1px;
+    color: white;
 
     font-family: 'Airbnb Cereal App Light';
     font-style: normal;
     font-weight: normal;
-    font-size: 21px;
+    font-size: 23px;
     letter-spacing: 1px;
 }
 
@@ -471,7 +474,7 @@ button{
     /* height: 1200px; */
     width: 100%;
     /* background-color: #f1f1f1; */
-    background-color: white;
+    /* background-color: white; */
 
     display: flex;
     flex-direction: column;
@@ -480,9 +483,12 @@ button{
     border-color: black; */
 }
 
-.jahzan{
+.timeline-box{
     display: flex;
     margin-top: 50px;
+    padding-left: 550px;
+    /* border-style: solid;
+    border-color: white; */
 }
 
 .underline-svg{
@@ -491,19 +497,13 @@ button{
 }
 
 .head-text{
-    /* font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 55px; */
-    /* text-shadow: 1px 1px white, 1px 1px rgb(238, 238, 238); */
-
-    font-family: 'Airbnb Cereal App Black';
+    font-family: 'Airbnb Cereal App Medium';
     font-style: normal;
-    font-weight: normal;
-    font-size: 160px;
-    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 150px;
+    /* letter-spacing: 5px; */
     cursor: default;
-
-    color: rgba(142, 136, 136, 0.212);
+    color: rgba(239, 239, 239, 0.12);
 }
 
 .head-text-test{
@@ -520,32 +520,30 @@ button{
 }
 
 .heading-section{
+    margin-top: -70px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    /* border-color: black;
+    padding-left: 50px;
+    /* border-color: white;
     border-style: dotted; */
 }
 
 
 
 .timeline-left{
-    /* height: 100vh; */
-    
-    /* width: 45%;
-    border-style: solid;
-    border-color: black; */
-    height: 150px;
+    /* border-style: solid;
+    border-color: white; */
+    /* height: 150px; */
     width: 45%;
 }
 
 .timeline-container{
-    height: 750px;
+    height: 550px;
 
     width: 10%;
     /* border-style: solid;
-    border-color: black; */
+    border-color: white; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -553,10 +551,10 @@ button{
 }
 
 .timeline-right{
-    height: 150px;
+    /* height: 150px; */
     width: 45%;
     /* border-style: solid;
-    border-color: black; */
+    border-color: white; */
 }
 
 .dot{
@@ -571,24 +569,30 @@ button{
     border-style: solid;
     border-width: 4px;
     /* border-color: #760BD8; */
-    border-color: #0095df;
+    /* border-color: #0095df; */
+    border-color: rgba(255, 255, 255, 0.2);
+
 
     
 }
 
 .dot-sm{
     width: 26px;
-    height: 26px;
+    height: 22px;
     /* background-color: #760BD8; */
-    background-color: #0095df;
+    /* background-color: #0095df; */
+    background: rgba(255, 255, 255, 0.2);
+
     /* margin: 20px 20px; */
     border-radius: 100%;
 }
 
 .line{
     width: 4px;
-    height: 120px;
-    background-color: rgba(181, 181, 181, 0.56);
+    height: 80px;
+    /* background-color: rgba(181, 181, 181, 0.56); */
+    background: rgba(255, 255, 255, 0.2);
+
     /* background-color: #0095df; */
 }
 
@@ -601,12 +605,12 @@ button{
 
 .text1{
     /* border-style: solid;
-    border-color: black; */
+    border-color: white; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    height: 150px;
+    height: 110px;
     cursor: default;
 
 }
@@ -618,13 +622,12 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
-    /* background-color: #f1f1f1; */
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 30px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
-    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
     cursor: default;
     transition: 0.3s all;
+    color: white;
 }
 
 .text-wrap-reg{
@@ -634,18 +637,17 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
-    /* background-color: #f1f1f1; */
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 30px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
-    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
     cursor: default;
     transition: 0.3s all;
 }
 
 .text-of-tooltip{
-    width: 80%;
-    margin-top: 15px;
+    width: 95%;
+    margin-top: 5px;
 }
 
 .final-round-tooltip {
@@ -655,8 +657,8 @@ button{
     font-weight: normal;
     width: 100%;
     height: 100%;
-    font-size: 18px;
-    color: black;
+    font-size: 15px;
+    color: white;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
@@ -684,8 +686,8 @@ button{
     font-weight: normal;
     width: 100%;
     height: 100%;
-    font-size: 18px;
-    color: black;
+    font-size: 15px;
+    color: white;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
@@ -713,8 +715,8 @@ button{
     font-weight: normal;
     width: 100%;
     height: 100%;
-    font-size: 18px;
-    color: black;
+    font-size: 15px;
+    color: white;
     text-align: center;
     border-radius: 20px;
     padding: 5px 0;
@@ -740,7 +742,8 @@ button{
     /* width: 330px;
     height: 170px; */
     transform: scale(1.1);
-    height: 150px;
+    height: 650px;
+    width: 350px;
 
 }
 
@@ -811,7 +814,7 @@ button{
 .tooltip-head-text{
     /* font-family: 'Open Sans', sans-serif;
     font-weight: 400; */
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
     font-weight: bold;
@@ -828,12 +831,12 @@ button{
 
 .text2{
     /* border-style: solid;
-    border-color: black; */
+    border-color: white; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 150px;
+    height: 110px;
 }
 
 .heading-container{
@@ -846,7 +849,7 @@ button{
     width: 100%;
     /* height: 900px; */
     /* background-color: #f1f1f1; */
-    background-color: white;
+    /* background-color: white; */
 
     display: flex;
     flex-direction: column;
@@ -858,14 +861,15 @@ button{
 .rules-head-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .rules-body-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -70px;
     /* border-color: red;
     border-style: solid; */
    
@@ -897,7 +901,7 @@ button{
     width: 70%;
     cursor: default;
 
-    border-color: red;
+    /* border-color: red; */
 }
 
 .rules-more-btn-container{
@@ -930,7 +934,7 @@ button{
 
     border: double 4px transparent;
     border-radius: 100px;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #0095df,#7000ec);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), radial-gradient(circle at top left, #0095df,#7000ec);
     background-origin: border-box;
     background-clip: content-box, border-box;
     transition: all 0.3s;
@@ -973,8 +977,6 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border-color: black;
-    border-style: solid; */
 }
 
 .under-svg{
@@ -984,20 +986,13 @@ button{
 }
 
 .rules-text{
-    /* font-family: 'Open Sans', sans-serif;
-    font-weight: 300; */
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     margin-left: 20px;
     line-height: 140%;
-
-    /* font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: 1px; */
+    color: white;
 }
 
 .phone-block{
@@ -1012,7 +1007,7 @@ button{
     display: flex;
     flex-direction: column;
     /* background-color: #f1f1f1; */
-    background-color: white;
+    /* background-color: white; */
 
     /* border-style: dotted;
     border-color: black; */
@@ -1059,6 +1054,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -80px;
     /* border-color: black;
     border-style: solid; */
 }
@@ -1068,6 +1064,7 @@ button{
     font-style: normal;
     font-weight: normal;
     cursor: default;
+    color: white;
 
 }
 
@@ -1104,6 +1101,7 @@ button{
     border-style: solid; */
     /* height: 500px; */
     width: 170px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1140,7 +1138,7 @@ button{
 
 .about-head-container{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     padding-top: 100px;
      /* border-style: dotted;
@@ -1154,13 +1152,14 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 30px;
 }
 
 .faq-section{
     /* border-color: red;
     border-style: solid; */
     /* background-color: #f1f1f1; */
-    background-color: white;
+    /* background-color: white; */
 
 }
 
@@ -1182,7 +1181,8 @@ button{
 }
 
     .faq-svg{
-        width: 350px;
+        width: 950px;
+        opacity: 20%;
     }
 
 
@@ -1225,8 +1225,10 @@ button{
   } */
 
   .accordion {
-    background-color: white;
-    color: #444;
+    /* background-color: white; */
+    background: rgba(255, 255, 255, 0.3);
+
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -1240,20 +1242,20 @@ button{
     font-family: 'Airbnb Cereal App Book';
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    border-color: #eee;
+    font-size: 18px;
+    border-color: rgba(238, 238, 238, 0.294);
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.5px;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: rgba(204, 204, 204, 0.452);
   }
   
   .accordion:after {
     content: '\002B';
     /* color: rgba(149, 149, 149, 0.26); */
-    color: #444;
+    color: white;
 
     font-weight: bold;
     float: right;
@@ -1267,7 +1269,8 @@ button{
   .panel {
     /* padding: 0 18px; */
     padding-left: 20px;
-    background-color: white;
+    /* background-color: white; */
+    background: rgba(255, 255, 255, 0.3);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -1277,6 +1280,7 @@ button{
     font-weight: normal;
     font-weight: 400;
     font-size: 18px;
+    color: white;
   }
 
   .panel-text{
@@ -1314,6 +1318,7 @@ button{
       width: 650px;
       padding-right: 20px;
       padding-left: 20px;
+      position: absolute;
       /* border-color: red;
       border-style: solid; */
   }
@@ -1339,6 +1344,8 @@ button{
     /* box-shadow: 0px 0px 35px rgba(0, 1, 0, 3); */
     display: flex;
     /* justify-content: space-between; */
+    /* background: rgba(255, 255, 255, 0.3); */
+    background-color: rgba(0, 0, 0, 0.363);
  }
 
  .footer-element{
@@ -1418,6 +1425,31 @@ button{
      margin-right: 20px;
  }
 
+ .rules-head-text-1{
+    font-family: 'Airbnb Cereal App Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    /* letter-spacing: 5px; */
+    cursor: default;
+    color: rgba(239, 239, 239, 0.12);
+    text-align: left;
+    padding-left: 200px;
+ }
+
+ .rules-head-text-2{
+    font-family: 'Airbnb Cereal App Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    /* letter-spacing: 5px; */
+    cursor: default;
+    color: rgba(239, 239, 239, 0.12);
+    text-align: right;
+    padding-right: 350px;
+    margin-top: -100px;
+ }
+
 
  @media(max-width:990px){
     .top-banner{
@@ -1445,6 +1477,105 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
+
+    .text-wrap:hover .timeline-head-text{
+        visibility: visible;
+     
+     }
+     
+     .text-wrap:hover .timeline-desc-text{
+         visibility: visible;
+     
+      }
+     
+     .text-wrap:hover .initial-round-tooltip{
+         visibility: hidden;
+     
+     }
+     
+     .text-wrap:hover .final-round-tooltip{
+         visibility: hidden;
+     
+     }
+     
+     .text-wrap:hover .workshop-tooltip{
+         visibility: hidden;
+     }
+
+     .text-wrap:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        width: 80%;
+        height: 100px;
+    
+    }
+    
+    .text-wrap-reg:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    
+    }
+
+    .about-head-box{
+        /* border-style: dotted;
+        border-color: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .head-text{
+        font-size: 150px;
+    }
+
+    .about-section{
+        /* height: 100vh; */
+        /* border-style: solid;
+        border-color: white; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .about-head-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        /* border-style: solid;
+        border-color: red; */
+        width: 100%;
+    }
+
+    .about-text-container{
+        /* border-style: solid;
+        border-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .about-text-box{
+        /* border-style: dotted;
+        border-color: black; */
+        /* background-color: white; */
+        width: 600px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        position: absolute;
+        /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
+    }
 
     .final-round-tooltip {
         visibility: hidden;
@@ -1532,14 +1663,7 @@ button{
         z-index: 1;
       }
 
-    .text-wrap:hover{
-        /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
-        cursor: pointer;
-        /* width: 330px;
-        height: 170px; */
-        transform: scale(1.1);
-        height: 240px;
-    }
+
 
     .footer {
         position: static;
@@ -1574,7 +1698,37 @@ button{
         display: flex;
         flex-direction: column;
         /* border-style: dotted;
+        border-color: white; */
+        width: 100%;
+    }
+
+    .about-text-container{
+        /* border-style: solid;
         border-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: -250px;
+    }
+
+    .timeline-box{
+        display: flex;
+        margin-top: 50px;
+        padding-left: 0px;
+        order: 2;
+        /* border-style: solid;
+        border-color: white; */
+    }
+
+    .heading-section{
+        order: 1;
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
     }
 
     .line{
@@ -1587,21 +1741,53 @@ button{
         display: none;
     }
 
+    .svg-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about-svg{
         width: 500px;
-        /* border-style: dotted;
-        border-color: red; */
+        
     }
 
     .top-banner{
         display: none;
     }
 
+    .rules-head-text-1{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 130px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: left;
+        /* padding-left: 150px; */
+     }
+    
+     .rules-head-text-2{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 130px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: right;
+        padding-left: 20px;
+        margin-top: -50px;
+    
+     }
+
     .rules-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 50px;
     }
 
     .contact-body-below{
@@ -1610,6 +1796,13 @@ button{
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+
+    .rules-head-box{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
     }
 
     .first-text{
@@ -1642,29 +1835,6 @@ button{
     }
 
 
-    .about-text-box{
-        /* border-style: dotted;
-        border-color: black; */
-        /* margin-top: 50px; */
-        /* background-color: white; */
-        width: 100%;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 30px;
-        /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
-    }
-
-    .about-text-container{
-        /* border-style: solid;
-        border-color: red; */
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .rules-text-box{
         /* background-color: white; */
         border-radius: 30px;
@@ -1683,7 +1853,7 @@ button{
         /* height: 1000px; */
         width: 100%;
         /* background-color: #f1f1f1; */
-        background-color: white;
+        /* background-color: white; */
 
         display: flex;
         flex-direction: column;
@@ -1739,7 +1909,7 @@ button{
         border-radius: 30px;
         box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.1); */
 
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF; */
         /* background-color: #f1f1f1; */
         border-radius: 30px;
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
@@ -1752,7 +1922,7 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF; */
         /* background-color: #f1f1f1; */
         border-radius: 30px;
         box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
@@ -1765,14 +1935,7 @@ button{
         visibility: hidden;
     } */
 
-    .about-text-container{
-        /* border-style: solid;
-        border-color: red; */
-        width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
 
     .contact-body-below{
         display: flex;
@@ -1785,7 +1948,7 @@ button{
         display: flex;
         flex-direction: column;
         /* background-color: #f1f1f1; */
-        background-color: white;
+        /* background-color: white; */
 
         /* border-style: dotted;
         border-color: black; */
@@ -1795,7 +1958,7 @@ button{
         width: 100%;
         /* height: 1500px; */
         /* background-color: #f1f1f1; */
-        background-color: white;
+        /* background-color: white; */
 
         display: flex;
         flex-direction: column;
@@ -1929,9 +2092,10 @@ button{
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding-top: 100px;
-        /* border-color: black;
+        /* padding-top: 100px; */
+        /* border-color: white;
         border-style: solid; */
+        height: 800px;
     }
 
     .initial-round-tooltip{
@@ -1947,20 +2111,57 @@ button{
     }
 
     .head-text{
-        font-family: 'Airbnb Cereal App Black';
+        /* font-family: 'Airbnb Cereal App Black';
         font-style: normal;
         font-weight: normal;
         font-size: 80px;
         letter-spacing: 5px;
-        color: rgba(142, 136, 136, 0.212);
+        color: rgba(142, 136, 136, 0.212); */
+
+ 
+            font-family: 'Airbnb Cereal App Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 80px;
+            /* letter-spacing: 5px; */
+            cursor: default;
+            color: rgba(239, 239, 239, 0.12);
+
     }
+
+    .rules-head-text-1{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 70px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: left;
+        /* text-align: center; */
+        margin-left: -140px;
+     }
+    
+     .rules-head-text-2{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 70px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: right;
+        padding-left: 20px;
+        margin-top: -30px;
+    
+     }
 
     .rules-body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .contact-social-container{
@@ -1976,10 +2177,9 @@ button{
 
     .accordion-container{
         width: 375px;
-        padding-right: 20px;
+        /* padding-right: 20px;
         padding-left: 20px;
-        padding-top: 30px;
-        padding-bottom: 100px;
+        padding-top: 30px; */
     }
 
     .day-text{
@@ -2041,6 +2241,10 @@ button{
         padding-top: 20px;
     }
 
+    .about-text-box{
+        width: 100%;
+    }
+
     .rules-more-btn-container{
         width: 100%;
         height: 100px;
@@ -2073,7 +2277,7 @@ button{
     
         border: double 4px transparent;
         border-radius: 100px;
-        background-image: linear-gradient(white, white), radial-gradient(circle at top left, #0095df,#7000ec);
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), radial-gradient(circle at top left, #0095df,#7000ec);
         background-origin: border-box;
         background-clip: content-box, border-box;
     }
@@ -2254,10 +2458,42 @@ button{
 
     }
 
+    .heading-section{
+        padding-top: 100px;
+    }
+
+    .accordion-container{
+        padding-top: 0px;
+        margin-top: -100px;
+    }
+
+    .section-body-container{
+        margin-top: -250px;
+    }
+
+
  
 }
 
 @media(max-width:380px){
+
+    .section-body-container{
+        margin-top: -250px;
+    }
+
+    .rules-body-container{
+        padding-top: 200px;
+    }
+
+    .one-line{
+        display: flex;
+        margin-top: 60px;
+        justify-content: left;
+        align-items: center;
+        border-radius: 10px;
+        width: 90%;
+    }
+
     .day{
         /* border-style: dotted;
         border-color: white; */
@@ -2284,13 +2520,39 @@ button{
     }
 
     .head-text{
-        font-family: 'Airbnb Cereal App Black';
+        font-family: 'Airbnb Cereal App Medium';
         font-style: normal;
-        font-weight: normal;
+        font-weight: 500;
         font-size: 80px;
-        letter-spacing: 5px;
-        color: rgba(142, 136, 136, 0.212);
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
     }
+
+    .rules-head-text-1{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: left;
+        padding-left: 180px;
+     }
+    
+     .rules-head-text-2{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: right;
+        padding-right: 40px;
+        margin-top: -20px;
+     }
 
     .contact-text{
         font-size: 18px;
@@ -2303,7 +2565,7 @@ button{
         /* border-color: red;
         border-style: solid; */
         /* background-color: #f1f1f1; */
-        background-color: white;
+        /* background-color: white; */
         margin-top: -100px;
     }
 
@@ -2318,13 +2580,39 @@ button{
 @media(max-width:325px){
 
     .head-text{
-        font-family: 'Airbnb Cereal App Black';
+        font-family: 'Airbnb Cereal App Medium';
         font-style: normal;
-        font-weight: normal;
+        font-weight: 500;
         font-size: 60px;
-        letter-spacing: 5px;
-        color: rgba(142, 136, 136, 0.212);
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
     }
+
+    .rules-head-text-1{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: left;
+        padding-left: 180px;
+     }
+    
+     .rules-head-text-2{
+        font-family: 'Airbnb Cereal App Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        /* letter-spacing: 5px; */
+        cursor: default;
+        color: rgba(239, 239, 239, 0.12);
+        text-align: right;
+        padding-right: 40px;
+        margin-top: -20px;
+     }
 
     .accordion-container{
         width: 300px;
@@ -2333,7 +2621,7 @@ button{
     }
 
     .about-text{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .contact-text{
@@ -2355,7 +2643,7 @@ button{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 150px;
+        padding-top: 250px;
     }
 
     .timeline-head-text{
@@ -2375,6 +2663,10 @@ button{
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
+    }
+
+    .contact-section{
+        padding-top: 300px;
     }
     
 
