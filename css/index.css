@@ -28,6 +28,13 @@ button{
     outline: none;
 }
 
+.about:hover{
+    color: red;
+}
+
+
+
+
 
 
 
@@ -302,7 +309,7 @@ button{
     border-color: black; */
     background-color: white;
     height: 80px;
-    box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.5);
+    /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.5); */
 }
 
 .fixed{
@@ -339,6 +346,26 @@ button{
     width: 100%;
 }
 
+.nav-one-btn{
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid;
+    border-color: black; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.nav-svg{
+    width: 80px;
+    height: 100px;
+    margin: -30px 40px 0px 20px;
+
+    /* border-style: solid;
+    border-color: black; */
+}
+
 .nav-btn{
     margin: 0px 40px 0px 20px;
     height: 50px;
@@ -359,7 +386,9 @@ button{
 }
 
 .nav-btn:hover{
-    color: #3E45EE;
+    /* color: #3E45EE; */
+    /* color: #2ba0d8; */
+
 
 }
 
@@ -371,7 +400,8 @@ button{
     font-style: normal;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #3E45EE;
+    /* color: #2ba0d8; */
+    color: black;
     background-color: rgba(255, 255, 255, 0);
     border: none;
     outline: none;
@@ -616,6 +646,7 @@ button{
 
 .text-of-tooltip{
     width: 80%;
+    margin-top: 15px;
 }
 
 .final-round-tooltip {
@@ -633,6 +664,7 @@ button{
     border-radius: 30px;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
@@ -661,6 +693,7 @@ button{
     border-radius: 30px;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
@@ -689,6 +722,7 @@ button{
     border-radius: 30px;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
@@ -707,6 +741,7 @@ button{
     /* width: 330px;
     height: 170px; */
     transform: scale(1.1);
+    height: 150px;
 
 }
 
@@ -766,6 +801,24 @@ button{
 }
 
 .timeline-desc-text{
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 300; */
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.tooltip-head-text{
+    /* font-family: 'Open Sans', sans-serif;
+    font-weight: 400; */
+    font-size: 23px;
+    font-family: 'Airbnb Cereal App Book';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.tooltip-desc-text{
     /* font-family: 'Open Sans', sans-serif;
     font-weight: 300; */
     font-family: 'Airbnb Cereal App Book';
@@ -913,6 +966,8 @@ button{
     height: 50px;
     width: 15px;
 }
+
+
 
 .button-box{
     display: flex;
@@ -1223,8 +1278,11 @@ button{
     font-weight: normal;
     font-weight: 400;
     font-size: 18px;
+  }
 
-
+  .panel-text{
+      padding-top: 30px;
+      padding-bottom: 30px;
   }
 
   .accordion-box{
@@ -1368,7 +1426,7 @@ button{
     }
  }
 
- .footer-fb:hover{
+ /* .footer-fb:hover{
     color: #3b5998;
  }
 
@@ -1378,7 +1436,9 @@ button{
 
  .footer-email:hover{
     color: #8b00fc;
- }
+ } */
+
+
 
 
 
@@ -1386,6 +1446,115 @@ button{
 
 /* TABLET DEVICES */
 @media(max-width:770px){
+
+    .final-round-tooltip {
+        visibility: hidden;
+        font-family: 'Airbnb Cereal App Book';
+        font-style: normal;
+        font-weight: normal;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px 0;
+        border-radius: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+        /* transition: 0.3s all; */
+        /* border-color: black;
+        border-style: dotted; */
+    
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+    
+    .initial-round-tooltip {
+        visibility: hidden;
+        font-family: 'Airbnb Cereal App Book';
+        font-style: normal;
+        font-weight: normal;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px 0;
+        border-radius: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+        /* transition: 0.3s all; */
+        /* border-color: black;
+        border-style: dotted; */
+    
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+    
+      .workshop-tooltip {
+        visibility: hidden;
+        font-family: 'Airbnb Cereal App Book';
+        font-style: normal;
+        font-weight: normal;
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px 0;
+        border-radius: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+        /* border-color: black;
+        border-style: dotted; */
+    
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+
+    .text-wrap:hover{
+        /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
+        cursor: pointer;
+        /* width: 330px;
+        height: 170px; */
+        transform: scale(1.1);
+        height: 240px;
+    }
+
+    .footer {
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 180px;
+        /* background-color: red; */
+        color: white;
+        text-align: center;
+        /* box-shadow: 0px 0px 35px rgba(0, 1, 0, 3); */
+        display: flex;
+        /* justify-content: space-between; */
+     }
 
 
 
@@ -1593,9 +1762,9 @@ button{
         transition: 0.3s all;
     }
 
-    .text-wrap:hover .head-text{
+    /* .text-wrap:hover .head-text{
         visibility: hidden;
-    }
+    } */
 
     .about-text-container{
         /* border-style: solid;
@@ -1736,6 +1905,15 @@ button{
         display: flex;
         /* justify-content: space-between; */
      }
+
+     .text-wrap:hover{
+        /* box-shadow: 0px 0px 10px rgba(0, 1, 0, 0.2); */
+        cursor: pointer;
+        /* width: 330px;
+        height: 170px; */
+        transform: scale(1.1);
+        height: 100px;
+    }
     
  
 

@@ -15,12 +15,14 @@
         Follow the prototype</title>
     <link rel="icon" href="./assets/icon.png">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/hover-min.css">
+
 </head>
 <body>
   
         
   
-    <div class="landing section" id="landing-section">
+    <div class="landing section" id="landing">
         <div class="ix-logo-container">
             <img class="second-img animate__animated animate__flash" src="assets/logo.png">
         </div>
@@ -55,16 +57,20 @@
         
     </div>
 
-    <div class="about-section" id="about-section">
+    <div class="about-section" id="about">
         <div class="top-banner" >
                 <div class="logo-box">
                     <a href="#about-section"><img class="logo" src="assets/logo.png"></a>
                 </div>
                 <div class="buttons">
-                    <a href="#about-section"><button class="nav-btn about">ABOUT</button></a> 
-                    <a href="#timeline-section"><button class="nav-btn timeline">TIMELINE</button></a>
-                    <a href="#rules-section"><button class="nav-btn rules">RULES</button></a>
-                    <a href="#contact-section"><button class="nav-btn contact">CONTACT</button></a>
+                        <a href="#about"><button class="nav-btn about hvr-underline-from-center">ABOUT</button></a> 
+             
+                        <a href="#timeline"><button class="nav-btn timeline hvr-underline-from-center">TIMELINE</button></a>
+              
+                        <a href="#rules"><button class="nav-btn rules hvr-underline-from-center">RULES</button></a>
+               
+                        <a href="#contact"><button class="nav-btn contact hvr-underline-from-center">CONTACT</button></a>
+               
                 </div>
             
         </div>
@@ -213,9 +219,9 @@
             <div class="about-text-container">
                 <div class="about-text-box" data-aos="zoom-in-up">
                     <p class="about-text">
-                        Conducted by the IEEE Student <br/>
-                        Branch of Informatics Institute of <br/>
-                        Technology 2019/2020,<br/>
+                        Conducted by the IEEE<br/> 
+                        Student Branch of Informatics <br/>
+                        Institute of Technology 2019/2020,<br/>
                         IX 2020 is the first ever virtual <br/>
                         inter-university designathon in <br/>
                         Sri Lanka encompassed with a<br/>
@@ -229,7 +235,7 @@
         </div>
     </div>
 
-    <div class="timeline-section" id="timeline-section">
+    <div class="timeline-section" id="timeline">
         <div class="heading-section">
             <p class="head-text">Timeline</p> 
         </div>
@@ -263,6 +269,8 @@
                     <p class="timeline-head-text">Final Round</p>
                     <p class="timeline-desc-text">27th June 2020</p>
                     <div class="final-round-tooltip">
+                        <p class="tooltip-head-text">Final Round</p>
+                        <p class="tooltip-desc-text">27th June 2020</p>
                         <p class="text-of-tooltip">The qualified teams are required to come up with a prototype for the given theme in 24 hours</p>
                     </div>
                     <!-- <div class="underline"></div> -->
@@ -292,6 +300,8 @@
                     <p class="timeline-head-text">Workshop</p>
                     <p class="timeline-desc-text">12th June 2020</p>
                     <div class="workshop-tooltip">
+                        <p class="tooltip-head-text">Workshop</p>
+                        <p class="tooltip-desc-text">12th June 2020</p>
                         <p class="text-of-tooltip">As an aid to the contestants, a workshop will be hosted on the basics of UI/UX Designing. </p>
                     </div>
                 </div>
@@ -304,6 +314,8 @@
                     <p class="timeline-head-text">Initial Round</p>
                     <p class="timeline-desc-text">20th June 2020</p>
                     <div class="initial-round-tooltip">
+                        <p class="tooltip-head-text">Initial Round</p>
+                        <p class="tooltip-desc-text">20th June 2020</p>
                         <p class="text-of-tooltip">All teams are required to come up with a prototype for the given theme in 12 hours</p>
                     </div>
                     <!-- <div class="underline"></div> -->
@@ -319,7 +331,7 @@
     </div>
     </div>
 
-    <div class="rules-section" id="rules-section">
+    <div class="rules-section" id="rules">
         <div class="rules-head-container">
             <div class="rules-head-box">
                 <p class="head-text">Rules</p>
@@ -352,8 +364,7 @@
                             <path d="M1 0C1.55228 0 2 0.447715 2 1L2 53C2 53.5523 1.55228 54 1 54C0.447715 54 0 53.5523 0 53L0 0.999999C0 0.447715 0.447715 0 1 0Z" fill="#3E45EE"/>
                         </svg>  
                     </div>
-                    <p class="rules-text">Teams cannot be formed by combining students from other universities and 
-                        doing so would result in disqualification</p>
+                    <p class="rules-text">A team should comprise of students from the same university. Combining with another university will result in disqualification.</p>
                 </div>
 
                 <div class="one-line" data-aos="zoom-in">
@@ -362,9 +373,7 @@
                             <path d="M1 0C1.55228 0 2 0.447715 2 1L2 53C2 53.5523 1.55228 54 1 54C0.447715 54 0 53.5523 0 53L0 0.999999C0 0.447715 0.447715 0 1 0Z" fill="#3E45EE"/>
                         </svg>  
                     </div>
-                    <p class="rules-text">On completion of a prototype design at the end of a round, the leader of  each 
-                        team is required to fill in a google form where the links to the following 
-                        requirements must be provided</p>
+                    <p class="rules-text">On completion of a prototype design at the end of a round, the leader of each team is required to fill in a google form with the prototype link and documentation</p>
                 </div>
 
                 <!-- <div class="pdf" id="pdf"><iframe height="700px" width="400px" src="./assets/test.pdf"></iframe></div> -->
@@ -378,7 +387,7 @@
     </div>
 
 
-    <div class="contact-section" id="contact-section">
+    <div class="contact-section" id="contact">
         <div class="contact-head-container">
             <div class="contact-head-box">
                 <p class="head-text">Contact</p>
@@ -440,12 +449,12 @@
                 <div class="accordion-box">
                     <button class="accordion">How many can be there in a team?</button>
                     <div class="panel">
-                    <p>2-3</p>
+                    <p class="panel-text">2-3 members per team</p>
                     </div>
     
-                    <button class="accordion">What are the dates?</button>
+                    <button class="accordion">When will the competition be held?</button>
                     <div class="panel">
-                    <p>
+                    <p class="panel-text">
                         Workshop - 12th June 2020
                         <br/>
                         <br/>
@@ -456,9 +465,9 @@
                         </p>
                     </div>
     
-                    <button class="accordion">How long will the hackathon be?</button>
+                    <button class="accordion">What is the duration of the designathon?</button>
                     <div class="panel">
-                    <p>Initial round - 12 hours
+                    <p  class="panel-text">Initial round - 12 hours
                         <br/>
                         <br/>
                         Final round - 24 hours
@@ -468,7 +477,7 @@
 
                     <button class="accordion">What tools can be used?</button>
                     <div class="panel">
-                    <p>
+                    <p class="panel-text">
                         Figma (recommended)
                         <br/>
                         <br/>
@@ -476,13 +485,22 @@
                         <br/>
                         <br/>
                         Adobe XD
+                        <br/>
+                        <br/>
+                        Invision
+                        <br/>
+                        <br/>
+                        Azure
+                        <br/>
+                        <br/>
+                        Proto.io
 
                     </p>
                     </div>
 
                     <button class="accordion">What are the expected deliverables?</button>
                     <div class="panel">
-                    <p>
+                    <p class="panel-text">
                         Prototype link
                         <br/>
                         <br/>
@@ -565,24 +583,10 @@
 
 
 
-    <!-- <script>
-        $(".about").mouseover(function(){
-            window.location.href="#about-section";
-            
-        });
+    <script>
+       
 
-        $(".timeline").mouseover(function(){
-            window.location.href="#timeline-section";
-        });
-
-        $(".rules").mouseover(function(){
-            window.location.href="#rules-section";
-        });
-
-        $(".contact").mouseover(function(){
-            window.location.href="#contact-section";
-        })
-    </script> -->
+    </script>
 
 
 
@@ -608,11 +612,11 @@ for (i = 0; i < acc.length; i++) {
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 
-    var landing = $("#landing-section").height();
-    var about = $("#about-section").height() + landing;
-    var rules = $("#rules-section").height() + about;
-    var contact = $("#contact-section").height() + rules;
-    var faq = $("#faq-section").height() + contact;
+    var landing = $("#landing").height();
+    var about = $("#about").height() + landing;
+    var rules = $("#rules").height() + about;
+    var contact = $("#contact").height() + rules;
+    var faq = $("#faq").height() + contact;
 
 	  if (scroll > contact+1000) {
 	    $(".about").css("color" , "#8E8888");
@@ -693,6 +697,7 @@ for (i = 0; i < acc.length; i++) {
 
 
 
+
 	  }else if (scroll > landing-100){
 		$(".about").css("color" , "#3E45EE");
 	    $(".timeline").css("color" , "#8E8888");
@@ -704,7 +709,7 @@ for (i = 0; i < acc.length; i++) {
         // $('.text-wrap').removeClass('animate__animated animate__zoomInDown'); 
 
 
-        $('.about').addClass('animate__animated animate__headShake nav-btn-active'); 
+        $('.about').addClass('animate__animated animate__headShake nav-btn-active');
         $('.timeline').removeClass('animate__animated animate__headShake nav-btn-active'); 
         $('.rules').removeClass('animate__animated animate__headShake nav-btn-active');
         $('.contact').removeClass('animate__animated animate__headShake nav-btn-active');
