@@ -400,8 +400,7 @@ button{
     font-style: normal;
     font-weight: bold;
     letter-spacing: 2px;
-    /* color: #2ba0d8; */
-    color: black;
+    color: #2ba0d8;
     background-color: rgba(255, 255, 255, 0);
     border: none;
     outline: none;
