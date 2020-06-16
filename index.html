@@ -63,7 +63,7 @@
                     <a href="#about-section"><img class="logo" src="assets/logo.png"></a>
                 </div>
                 <div class="buttons">
-                        <a href="#about"><button class="nav-btn about hvr-underline-from-center">ABOUT</button></a> 
+                        <a href="#about"><button class=" about hvr-underline-from-center nav-btn"><span class="fuck">ABOUT</span></button></a> 
              
                         <a href="#timeline"><button class="nav-btn timeline hvr-underline-from-center">TIMELINE</button></a>
               
@@ -216,10 +216,10 @@
 
     <div class="rules-section" id="rules">
         <div class="rules-head-container">
-            <div class="rules-head-box">
-                <p class="rules-head-text-1">rules &</p>
-                <p class="rules-head-text-2">regulations</p>
-            </div>
+            <p class="head-text">rules</p>
+            <!-- <div class="rules-head-box">
+                <p class="rules-head-text-1">rules &<br/><span class="rules-head-span">regulations</span></p>
+            </div> -->
         </div>
         <div class="rules-body-container">
             <div class="rules-text-box">
@@ -404,22 +404,24 @@
 
     <div class="footer">
         <div class="footer-left">
-            <div><img class="footer-logo" src="./assets/logo.png"></div>
+            <div>
+            <img class="ieee-logo" src="./assets/ieee-logo.png">
+            </div>
 
         </div>
         <div class="footer-element">
            
             <div class="footer-copyright">
                 <p class="footer-text">&copy; <span class="footer-insta">IX 2020</span> | <span class="xoxo">All rights reserved</span></p>
-                <div class="footer-icons">
-                    <a href="mailto:ix.designathon@gmail.com" target="_blank"><i class="far fa-envelope icon footer-email"></i></a>
-                    <a href="https://www.facebook.com/ieeeinformatics/" target="_blank"><i class="fab fa-facebook-f icon footer-fb"></i></a>
-                    <a href="https://instagram.com/ieeeiit?igshid=1x4l51c58bzpj" target="_blank"><i class="fab fa-instagram icon footer-insta"></i></a>
-                </div>
+                
             </div>
         </div>
         <div class="footer-right">
-            <img class="ieee-logo" src="./assets/ieee-logo.png">
+            <div class="footer-icons">
+                <a href="mailto:ix.designathon@gmail.com" target="_blank"><i class="far fa-envelope icon footer-email"></i></a>
+                <a href="https://www.facebook.com/ieeeinformatics/" target="_blank"><i class="fab fa-facebook-f icon footer-fb"></i></a>
+                <a href="https://instagram.com/ieeeiit?igshid=1x4l51c58bzpj" target="_blank"><i class="fab fa-instagram icon footer-insta"></i></a>
+            </div>
         </div>
 
         
@@ -549,9 +551,10 @@ for (i = 0; i < acc.length; i++) {
 
     $(window).scroll(function(){
         if($(this).scrollTop() > 866){
+            $('.top-banner').removeClass('top-banner-hidden');
             $('.top-banner').addClass('fixed');
         }else{
-            $('.top-banner').removeClass('fixed');
+            $('.top-banner').addClass('top-banner-hidden');
         }
     })
 </script>
